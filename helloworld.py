@@ -24,6 +24,7 @@ conn = sqlite3.connect('D:\\ProgramFiles\\Programming\\Db_files\\ttcs.db')
 #cursorObj = conn.cursor()
 
 pd.set_option('display.max_columns',15)
+
 table = pd.DataFrame()
 
 tname = 'teammembers'
